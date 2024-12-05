@@ -1,0 +1,16 @@
+.caseCon {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.caseCon p {
+    width: 50rem;
+}
+.caseCon h2 {
+    width: 45rem;
+}
+
+.caseImg {
+    height: 25rem;
+    margin-top: 12rem;
+}
