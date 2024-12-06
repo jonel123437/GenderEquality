@@ -361,7 +361,7 @@ button:hover {
 
 #nav {
     transition: top 0.3s;
-    margin-top: 2.5rem;
+    margin-top: -2rem;
 }
 
 .headerLogo {

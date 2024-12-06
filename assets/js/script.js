@@ -207,7 +207,7 @@ window.addEventListener('scroll', () => {
     } else {
         // Scrolling up
         header.style.top = '0';
-        nav.style.top = '50px'; // Adjust to the header height
+        nav.style.top = '115px'; // Adjust to the header height
     }
     lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
 });
