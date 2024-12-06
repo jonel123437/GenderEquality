@@ -5,12 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gender Equality & VAWC</title>
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     </head>
     <body>
         <header>
             <img class="headerLogo" src="assets/img/360_F_151051865_KNFqSWnLIKBwwTiEg2nc2DbIskFHGrDR.jpg" alt="">
             <h1 style="margin-left: 1rem;">Gender Equality, National Programs, & VAWC</h1>
         </header>
+        <button id="topButton">🡅</button>
         <nav>
             <ul>
                 <li><a href="#laws">Laws</a></li>
@@ -20,10 +22,12 @@
                 <li><a href="#call-to-action">Call to Action</a></li>
             </ul>
         </nav>
-
-        <img style="width: 100%; height: 35rem;" src="assets/img/2-1.jpg" alt="">
-
-        <main>
+        <div class="container123">
+            <img class="coverimg" src="assets/img/what-is-gender-equality-690x460.webp" alt="">
+            <h1 class="coverh1">GENDER EQUALITY, <br>NATIONAL PROGRAMS, <br>& VAWC</h1>
+            <button onclick="window.location.href='#laws'">Read More</button>
+        </div>
+        <main style="margin-top: 11rem;">
             <section id="laws">
                 <h2>Law Overview</h2>
                 <ul>
@@ -308,12 +312,20 @@
 
             <section id="call-to-action">
                 <h2>Call to Action</h2>
-                <p>Steps to raise awareness: Organize seminars, distribute pamphlets, and leverage social media campaigns.</p>
-                <p><strong>Helplines:</strong></p>
+                <p><strong>Steps to raise awareness:</strong></p>
                 <ul>
-                    <li>Philippine Commission on Women: 123-4567</li>
-                    <li>VAWC Helpline: 987-6543</li>
-                    <li>Police Emergency: 911</li>
+                    <li>Organize seminars and workshops.</li>
+                    <li>Distribute flyers and posters.</li>
+                    <li>Leverage social media campaigns.</li>
+                    <li>Partner with schools and local leaders.</li>
+                    <li>Host community dialogues and events.</li>
+                    <li>Share helplines and support resources.</li>
+                </ul>
+                <p><strong>Helplines:</strong></p>
+                <ul class="ulcall">
+                    <li><i class="fas fa-phone"></i> Philippine Commission on Women: 123-4567</li>
+                    <li><i class="fas fa-phone"></i> VAWC Helpline: 987-6543</li>
+                    <li><i class="fas fa-phone"></i> Police Emergency: 911</li>
                 </ul>
             </section>
         </main>

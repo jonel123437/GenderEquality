@@ -174,3 +174,20 @@ window.onload = function() {
     });
 
 };
+
+// Get the button
+const topButton = document.getElementById("topButton");
+
+// Show the button when scrolled down 100px
+window.onscroll = function() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        topButton.style.display = "block";
+    } else {
+        topButton.style.display = "none";
+    }
+};
+
+// Scroll to the top of the document when the button is clicked
+topButton.onclick = function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+};
