@@ -15,10 +15,6 @@
         justify-content: center; /* Centers the content */
         gap: 16px; /* Adds space between the elements */
     }
-    #nav {
-        margin-top: 1.8rem;
-    }
-    
     .case-scenarioCon div {
         flex: 1 1 calc(50% - 16px); /* Each div takes up 50% of the container width minus the gap */
         box-sizing: border-box; /* Ensures padding and borders don't affect width */
