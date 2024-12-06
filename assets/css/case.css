@@ -8,7 +8,7 @@
     margin-top: 12rem;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
     .caseCon {
         display: flex;
         flex-direction: column;
