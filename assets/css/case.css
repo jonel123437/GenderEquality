@@ -1,19 +1,16 @@
-.caseCon {
+.asdasd {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
-.caseImg {
-    height: 25rem;
-    margin-top: 12rem;
+.asdasd img {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 @media screen and (max-width:1200px) {
-    .caseCon {
-        display: flex;
-        flex-direction: column;
-    }
-    .caseImg {
-        margin-top: -1rem;
+    .asdasd {
+        display: block;
     }
 }
