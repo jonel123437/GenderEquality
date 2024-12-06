@@ -32,6 +32,7 @@ nav ul {
     background: #333;
     overflow: hidden;
     display: flex;
+    align-items: center;
 }
 
 nav ul li {
@@ -146,7 +147,6 @@ ul {
 }
 
 #laws p {
-    width: 60rem;
     text-align: justify;
 }
 
