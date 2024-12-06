@@ -20,9 +20,6 @@
         box-sizing: border-box; /* Ensures padding and borders don't affect width */
         border: 1px solid #ccc; /* Optional: Adds a border for visibility */
     }
-    #nav {
-        margin-top: -4rem;
-    }
     .hgfh,
     .fmvkm {
         font-size: 8px;
