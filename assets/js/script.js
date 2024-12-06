@@ -191,3 +191,23 @@ window.onscroll = function() {
 topButton.onclick = function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 };
+
+
+let lastScrollTop = 0; // To keep track of last scroll position
+
+window.addEventListener('scroll', () => {
+    const header = document.getElementById('header');
+    const nav = document.getElementById('nav');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        // Scrolling down
+        header.style.top = '-100px'; // Adjust based on header height
+        nav.style.top = '-100px'; // Adjust based on the space between header and nav
+    } else {
+        // Scrolling up
+        header.style.top = '0';
+        nav.style.top = '50px'; // Adjust to the header height
+    }
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+});
